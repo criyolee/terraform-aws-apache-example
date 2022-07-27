@@ -3,9 +3,9 @@
 
 
 # Terraform lockfile
-**/terraform.lock.hcl
-./dev/terraform.lock.hcl
-./prod/terraform.lock.hcl
+**/.terraform.lock.hcl
+./dev/.terraform.lock.hcl
+./prod/.terraform.lock.hcl
 
 # .tfstate files
 *.tfstate
