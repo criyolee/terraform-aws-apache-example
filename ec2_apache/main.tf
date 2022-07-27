@@ -73,7 +73,7 @@ resource "aws_instance" "MyProvisionerInstance" {
   connection {
     type        = var.connection_type
     user        = var.ec2_user
-    private_key = file("C:\\Users\\criyo\\.ssh\\id_rsa")
+    private_key = file("${var.ssh_private_key}")
     host        = self.public_ip
   }
 

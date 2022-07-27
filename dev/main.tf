@@ -38,6 +38,7 @@ module "ec2_apache" {
     connection_type = "ssh"
     ec2_user = "ec2-user"
     server_name = "MyProvisionerInstance_dev"
+    ssh_private_key = "C:\\Users\\criyo\\.ssh\\id_rsa"
 
 }
 

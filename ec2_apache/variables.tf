@@ -58,3 +58,9 @@ variable "env" {
     description = "value"
     type = string
 }
+
+variable "ssh_private_key" {
+    description = "value"
+    type = string
+}
+
